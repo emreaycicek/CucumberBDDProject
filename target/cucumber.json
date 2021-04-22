@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3547648350,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Subscription",
+        "description": "",
+        "id": "bein-sports-connect-australia-subscription-test-case;subscription",
+        "after": [
+          {
+            "result": {
+              "duration": 144905835,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2835703370,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to https://connect-au.beinsports.com/en",
+            "match": {
+              "location": "Steps.iNavigateToHttpsConnectAuBeinsportsComEn()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1789802754,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click Subscribe button",
+            "match": {
+              "location": "Steps.iClickSubscribeButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 356131440,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I register to One Month(Monthly Plan with Two Week Free Trial) package",
+            "match": {
+              "location": "Steps.iRegisterToOneMonthMonthlyPlanWithTwoWeekFreeTrialPackage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6492513331,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I fill Create Account form with a random email",
+            "match": {
+              "location": "Steps.iFillCreateAccountFormWithARandomEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8176732560,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate package price",
+            "match": {
+              "location": "Steps.iValidatePackagePrice()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4326462747,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I make Payment with Credit Card",
+            "match": {
+              "location": "Steps.iMakePaymentWithCreditCard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4117981971,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I expect for a total charge of 1.00 since this is a free trial package",
+            "match": {
+              "location": "Steps.iExpectForATotalChargeOfSinceThisIsAFreeTrialPackage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 568988487,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I provide a test card data and confirm payment(Do not enter a real card data)",
+            "match": {
+              "location": "Steps.iProvideATestCardDataAndConfirmPaymentDoNotEnterARealCardData()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6621326,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I expect for a error text and finish test with success",
+            "match": {
+              "location": "Steps.iExpectForAErrorTextAndFinishTestWithSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Bein Sports Connect Australia Subscription Test Case",
+    "description": "",
+    "id": "bein-sports-connect-australia-subscription-test-case",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]

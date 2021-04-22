@@ -1,0 +1,11 @@
+steps/Steps.class
+steps/Hook.class
+collections/OrderPageCollection.class
+pages/OrderPage.class
+pages/HomePage.class
+pages/SubscribePage.class
+pages/RegisterPage.class
+Runner/TestRunner.class
+base/BaseTest.class
+pages/BasketPage.class
+collections/HomePageCollection.class
